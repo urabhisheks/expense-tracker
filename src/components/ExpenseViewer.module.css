@@ -1,0 +1,31 @@
+.expenses {
+  margin: 0 auto;
+  /* height: 400px; */
+  width: 70%;
+  /* border: 2px dashed tomato; */
+}
+.header {
+  font-size: larger;
+  font-weight: 600;
+  font-style: italic;
+  /* text-decoration: underline; */
+  /* text-align: center; */
+  background: #ff7f68;
+  width: 70%;
+  margin: 0 auto;
+}
+.head {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  line-height: 2rem;
+}
+
+tr:nth-child(even) {
+  background-color: #ff7f68;
+}

@@ -1,0 +1,28 @@
+.title {
+  /* border: 1px solid black; */
+  font-size: large;
+  font-weight: 700;
+  margin: 0 auto;
+  /* background-color: tomato; */
+  height: 50px;
+  width: 200px;
+}
+.not-allowed {
+  cursor: not-allowed;
+}
+.options {
+  cursor: pointer;
+  border-bottom: 2px solid tomato;
+  border-left: 2px solid tomato;
+  border-right: 2px solid tomato;
+}
+.list {
+  text-align: left;
+  line-height: 2rem;
+  /* height: 50px; */
+}
+
+.list:hover {
+  background-color: tomato;
+  color: white;
+}
